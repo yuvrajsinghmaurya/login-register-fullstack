@@ -8,7 +8,7 @@ const Home = () => {
 
   const fetchProducts = async () => {
     try {
-      const url = "http://localhost:8080/products/";
+      const url = "https://login-register-fullstack-backend.onrender.com/products/";
 
       const response = await fetch(url, {
         method: "GET",
